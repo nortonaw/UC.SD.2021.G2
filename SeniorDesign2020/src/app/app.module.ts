@@ -8,6 +8,10 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { DiningHallsComponent } from './home-page/dining-halls/dining-halls.component';
 import { QrCodeComponent } from './home-page/qr-code/qr-code.component';
 import { WorkoutsComponent } from './home-page/workouts/workouts.component';
+import { ButtonModule } from 'primeng/button';
+import { InputTextModule } from 'primeng/inputtext';
+import { DropdownModule } from 'primeng/dropdown';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,9 +24,16 @@ import { WorkoutsComponent } from './home-page/workouts/workouts.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ButtonModule,
+    InputTextModule,
+    DropdownModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+  
+ }

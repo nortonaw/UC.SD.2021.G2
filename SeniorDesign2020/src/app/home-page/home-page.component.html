@@ -14,3 +14,26 @@
         </button>
       </div>
 </div>
+
+<hr>
+
+<button pButton type="button" label="GO TO DINING HALL PAGE" routerLink="/dining-halls"></button>
+<button pButton type="button" label="GO TO WORKOUT HISTORY PAGE" routerLink="/workouts"></button>
+<button pButton type="button" label="GO TO QR CODE PAGE" routerLink="/qr-codes"></button>
+
+<hr>
+
+<p-button label="DINING HALL PAGE" routerLink="/dining-halls"></p-button>
+<p-button label="WORKOUT HISTORY PAGE" routerLink="/workouts"></p-button>
+<p-button label="QR CODE PAGE" routerLink="/qr-codes"></p-button>
+
+
+<hr>
+
+
+
+<p-dropdown [options]="books" [(ngModel)]="selectedBook" optionLabel="name"></p-dropdown>
+
+<p-dropdown [options]="cities1" [(ngModel)]="selectedCity1"></p-dropdown>
+
+<p-dropdown [options]="cities2" [(ngModel)]="selectedCity2" optionLabel="name"></p-dropdown>
