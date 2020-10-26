@@ -1,0 +1,15 @@
+<!-- INITIAL LOCK SCREEN -->
+<div *ngIf="loginValid == false">
+    <p>login-page works!</p>
+
+
+    <input type="text" id="login" name="login" placeholder="login">
+    <input type="text" id="password" name="login" placeholder="password">
+    <input type="submit" value="Log In" (click)="authLogin()">
+</div>
+
+<div *ngIf="loginValid == true">
+    <app-home-page></app-home-page>
+</div>
+  <!-- IF PASSED, GOES TO HOMEPAGE   -->
+  
