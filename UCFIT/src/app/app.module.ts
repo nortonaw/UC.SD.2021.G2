@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { DiningHallsComponent } from './home-page/dining-halls/dining-halls.component';
+import { WorkoutsComponent } from './home-page/workouts/workouts.component';
+import { QrCodesComponent } from './home-page/qr-codes/qr-codes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    DiningHallsComponent,
+    WorkoutsComponent,
+    QrCodesComponent
   ],
   imports: [
     BrowserModule,
