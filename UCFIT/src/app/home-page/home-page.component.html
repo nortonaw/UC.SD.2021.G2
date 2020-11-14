@@ -1,11 +1,24 @@
-<p>home-page works!</p>
-<button (click)="toggleLogin()">go to login page</button>
-<button routerLink="/login">LOG OUT</button>
+<h1>What are you doing today?</h1>
+<h4><span id="datetime"></span>, <span id="daytime"></span></h4>
 
 <br>
 <br>
 <br>
 
-<button routerLink="/dining">DINING HALLS</button>
+<!-- <button routerLink="/dining">DINING HALLS</button>
 <button routerLink="/qr">QR CODES</button>
-<button routerLink="/workout">WORKOUTS</button>
+<button routerLink="/workout">WORKOUTS</button> -->
+
+<div class="btn-group" role="group" aria-label="...">
+  <button type="button" class="btn btn-success" routerLink="/dining">DINING HALLS</button>
+  <br>
+  <button type="button" class="btn btn-success" routerLink="/qr">QR CODES</button>
+  <br>
+  <button type="button" class="btn btn-success" routerLink="/workout">WORKOUTS</button>
+</div>
+
+<br>
+<hr>
+<br>
+
+<button routerLink="/login">LOG OUT</button>

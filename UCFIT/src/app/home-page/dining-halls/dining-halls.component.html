@@ -1,3 +1,127 @@
-<p>dining-halls works!</p>
+<h1>Select a food court</h1>
+<h4>What are you hungry for?</h4>
 
+<hr>
+
+<div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn btn-success" (click)="tableRefresh(1)">CENTER COURT</button>
+    <br>
+    <button type="button" class="btn btn-success" (click)="tableRefresh(2)">MARKET POINTE</button>
+    <br>
+    <button type="button" class="btn btn-success" (click)="tableRefresh(3)">ON THE GREEN</button>
+</div>
+
+<hr>
+
+<div *ngIf="diningHallId > 0">
+    <h4>{{fillerStatement}}</h4>
+
+    <h1>{{sectionOneName}}</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Calories</th>
+                <th scope="col">Description</th>
+                <th scope="col">Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{sectionOne_rowOne_Name}}</td>
+                <td>{{sectionOne_rowOne_Calories}}</td>
+                <td>{{sectionOne_rowOne_Description}}</td>
+                <td>{{sectionOne_rowOne_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>{{sectionOne_rowTwo_Name}}</td>
+                <td>{{sectionOne_rowTwo_Calories}}</td>
+                <td>{{sectionOne_rowTwo_Description}}</td>
+                <td>{{sectionOne_rowTwo_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>{{sectionOne_rowThree_Name}}</td>
+                <td>{{sectionOne_rowThree_Calories}}</td>
+                <td>{{sectionOne_rowThree_Description}}</td>
+                <td>{{sectionOne_rowThree_Attributes}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>{{sectionTwoName}}</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Calories</th>
+                <th scope="col">Description</th>
+                <th scope="col">Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{sectionTwo_rowOne_Name}}</td>
+                <td>{{sectionTwo_rowOne_Calories}}</td>
+                <td>{{sectionTwo_rowOne_Description}}</td>
+                <td>{{sectionTwo_rowOne_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>{{sectionTwo_rowTwo_Name}}</td>
+                <td>{{sectionTwo_rowTwo_Calories}}</td>
+                <td>{{sectionTwo_rowTwo_Description}}</td>
+                <td>{{sectionTwo_rowTwo_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>{{sectionTwo_rowThree_Name}}</td>
+                <td>{{sectionTwo_rowThree_Calories}}</td>
+                <td>{{sectionTwo_rowThree_Description}}</td>
+                <td>{{sectionTwo_rowThree_Attributes}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h1>{{sectionThreeName}}</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Calories</th>
+                <th scope="col">Description</th>
+                <th scope="col">Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>{{sectionThree_rowOne_Name}}</td>
+                <td>{{sectionThree_rowOne_Calories}}</td>
+                <td>{{sectionThree_rowOne_Description}}</td>
+                <td>{{sectionThree_rowOne_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>{{sectionThree_rowTwo_Name}}</td>
+                <td>{{sectionThree_rowTwo_Calories}}</td>
+                <td>{{sectionThree_rowTwo_Description}}</td>
+                <td>{{sectionThree_rowTwo_Attributes}}</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>{{sectionThree_rowThree_Name}}</td>
+                <td>{{sectionThree_rowThree_Calories}}</td>
+                <td>{{sectionThree_rowThree_Description}}</td>
+                <td>{{sectionThree_rowThree_Attributes}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr>
 <button routerLink="/home">GO HOME</button>

@@ -14,6 +14,10 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {
     console.log("you are logged in");
     this.loggedIn = true;
+
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = dt.toDateString();
+    document.getElementById("daytime").innerHTML = dt.toLocaleTimeString();
   }
 
   toggleLogin() {
