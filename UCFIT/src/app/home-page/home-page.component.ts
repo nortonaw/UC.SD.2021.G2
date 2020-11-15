@@ -12,7 +12,6 @@ export class HomePageComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("you are logged in");
     this.loggedIn = true;
 
     var dt = new Date();
