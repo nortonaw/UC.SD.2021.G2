@@ -1,0 +1,15 @@
+body{
+    overflow-y: hidden;
+    height: 100%;
+}
+input {
+    width: 75%;
+}
+
+button {
+    color: #4CAF50;
+    padding: 15px 32px;
+}
+p{
+    color: red;
+}

@@ -26,5 +26,4 @@ export class HomePageComponent implements OnInit {
       this.loggedIn = true;
     }
   }
-
 }
