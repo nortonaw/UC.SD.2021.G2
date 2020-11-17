@@ -1,8 +1,8 @@
 .button{
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; /* Red #E00122*/
     border: none;
     color: white;
-    padding: 5px 25px;
+    padding: 4px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
