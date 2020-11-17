@@ -1,13 +1,13 @@
 <!-- INITIAL LOCK SCREEN -->
-<div *ngIf="loginValid == false">
+<div class="center" *ngIf="loginValid == false">
     <h1><b>Welcome to UC Fit</b></h1>
     <h4>Please login using your 6+2</h4>
 
     <hr>
 
-    <input type="text" id="login" name="login" placeholder="login">
-    <input type="text" id="password" name="login" placeholder="password">
-    <button type="submit" value="Log In" (click)="authLogin()">Login</button>
+    <input type="text" id="login" name="login" placeholder="login" id="center">
+    <input type="text" id="password" name="login" placeholder="password" id="center">
+    <button type="submit" value="Log In" id="LoginButton" (click)="authLogin()">Login</button>
     
     <hr>
 
