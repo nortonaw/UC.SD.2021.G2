@@ -1,0 +1,23 @@
+.center{
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.button{
+    background-color: #4CAF50; /* Red #E00122*/
+    border: none;
+    color: white;
+    padding: 4px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+
+}
+
+
+.padright{
+
+    padding-right: 10px;
+}
