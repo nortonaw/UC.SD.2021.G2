@@ -7,11 +7,11 @@
 
     <input type="text" id="login" name="login" placeholder="login" id="center">
     <input type="text" id="password" name="login" placeholder="password" id="center">
-    <button type="submit" value="Log In" id="LoginButton" (click)="authLogin()">Login</button>
+    <button type="submit" value="Log In" class="button" (click)="authLogin()">Login</button>
     
     <hr>
 
-    <button>Register Now</button>
+    <button class="button">Register Now</button>
 </div>
 
 <div *ngIf="loginValid == true">
