@@ -65,7 +65,6 @@ export class DiningHallsComponent implements OnInit {
     console.log(this.diningHallId);
     if (id == 1) {
       //Section Name
-      this.fillerStatement = "Center Court Menu: ";
       this.sectionOneName = "Homeplates";
       this.sectionTwoName = "Gridiron";
       this.sectionThreeName = "Kettle Classics";
@@ -114,7 +113,6 @@ export class DiningHallsComponent implements OnInit {
       this.sectionThree_rowThree_Attributes = "Low Carb";
     }
     else if (id == 2) {
-      this.fillerStatement = "Market Pointe Menu: ";
       this.sectionOneName = "Awc Station";
       this.sectionTwoName = "Cafe Roma";
       this.sectionThreeName = "Cincy Grill";
@@ -163,7 +161,6 @@ export class DiningHallsComponent implements OnInit {
       this.sectionThree_rowThree_Attributes = "Low Carb";
     }
     else if (id == 3) {
-      this.fillerStatement = "On The Green Menu: "
       this.sectionOneName = "Deli";
       this.sectionTwoName = "Entree";
       this.sectionThreeName = "Exhibition";
