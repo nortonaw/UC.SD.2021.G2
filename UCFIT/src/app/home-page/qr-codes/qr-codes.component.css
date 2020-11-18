@@ -1,10 +1,11 @@
+/*
 .center{
     text-align: center;
     padding: 0px 20px;
 }
 
 .button{
-    background-color: #4CAF50; /* Red #E00122*/
+    background-color: #4CAF50; /* Red #E00122
     border: none;
     color: white;
     padding: 4px 25px;
@@ -14,4 +15,39 @@
     font-size: 16px;
     border-radius: 25px;
     margin: 15px 0px 15px 0px;
+}
+*/
+
+@media only screen and (max-width: 600px) {
+
+    div{
+        padding: 100px;
+    }
+
+    h1{
+        font-size: medium;
+        font-weight: 900;
+    }
+    h4{
+        font-size: small;
+        font-weight: 800;
+    }
+
+    .button{
+        background-color: #d33f3f;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        padding: 4px 25px;
+        color: white;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 25px;
+    }
+    .center{
+        text-align: center;
+        padding: 0px 20px;
+    }
+
 }

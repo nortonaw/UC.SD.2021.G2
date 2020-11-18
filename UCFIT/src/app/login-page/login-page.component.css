@@ -1,5 +1,6 @@
+/*
 .button{
-    background-color: #4CAF50; /* Red #E00122*/
+    background-color: #d33f3f; Red #E00122
     border: none;
     color: white;
     padding: 4px 25px;
@@ -15,4 +16,68 @@
     text-align: center;
 
 }
+*/
 
+@media only screen and (min-width: 601px) {
+    .button{
+        background-color: cyan;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    div{
+        padding: 50px;
+        margin: 10px;
+    }
+
+    input{
+        
+    }
+
+    #login{
+
+    }
+    #password{
+
+    }
+
+    .center{
+        text-align: center;
+    
+    }
+
+    .button{
+        background-color: #d33f3f;
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        padding: 4px 25px;
+        color: white;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 25px;
+    }
+
+    .login{
+        font: small;
+        font-weight: 500;
+    }
+    .password{
+        font: small;
+        font-weight: 500;
+    }
+
+    h1{
+        font-size: medium;
+        font-weight: 900;
+        margin: 10px;
+    }
+    h4{
+        font-size: small;
+        font-weight: 800;
+        margin: 10px;
+    }
+
+}
