@@ -19,9 +19,24 @@
 */
 
 @media only screen and (min-width: 601px) {
+
     .button{
-        background-color: cyan;
+        background-color: #d33f3f;
+        border: none;
+        color: white;
+        padding: 4px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 25px;
+    
     }
+    .center{
+        text-align: center;
+    
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
