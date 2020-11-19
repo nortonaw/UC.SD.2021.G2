@@ -71,46 +71,46 @@ export class DiningHallsComponent implements OnInit {
 
       //Insert Data
       //SECTION ONE
-      this.sectionOne_rowOne_Name = "Chicken Club";
-      this.sectionOne_rowOne_Calories = "600";
-      this.sectionOne_rowOne_Description = "Chicken, lettuce, tomato, mayo";
-      this.sectionOne_rowOne_Attributes = "Vegan";
-      this.sectionOne_rowTwo_Name = "Pizza";
-      this.sectionOne_rowTwo_Calories = "120";
-      this.sectionOne_rowTwo_Description = "Tomato sauce, cheese, boneless bread";
-      this.sectionOne_rowTwo_Attributes = "Low card";
-      this.sectionOne_rowThree_Name = "Cheese Sticks";
-      this.sectionOne_rowThree_Calories = "150";
-      this.sectionOne_rowThree_Description = "Deep fried beer battered stainless steel cheese";
-      this.sectionOne_rowThree_Attributes = "High-Protein";
+      this.sectionOne_rowOne_Name = "Carolina Pork BBQ";
+      this.sectionOne_rowOne_Calories = "360";
+      this.sectionOne_rowOne_Description = "Fork-tender oven-braised pork in cider vinegar, hot sauce and honey";
+      this.sectionOne_rowOne_Attributes = "N/A";
+      this.sectionOne_rowTwo_Name = "Brussel Sprouts & Carrots";
+      this.sectionOne_rowTwo_Calories = "30";
+      this.sectionOne_rowTwo_Description = "Steamed fresh Brussels Sprouts and carrots seasoned with salt and pepper";
+      this.sectionOne_rowTwo_Attributes = "Eat Well, Vegan, PF";
+      this.sectionOne_rowThree_Name = "Blueberry-Peach Cobbler";
+      this.sectionOne_rowThree_Calories = "300";
+      this.sectionOne_rowThree_Description = "Warm blueberries and peaches with a brown sugar & cinnamon-spiced crumb topping";
+      this.sectionOne_rowThree_Attributes = "Vegetarian";
 
       //SECTION TWO
-      this.sectionTwo_rowOne_Name = "Ceasar Salad";
-      this.sectionTwo_rowOne_Calories = "69";
-      this.sectionTwo_rowOne_Description = "Someone, who's been dead for at least 70 years, made this salad";
-      this.sectionTwo_rowOne_Attributes = "Vegetarian";
-      this.sectionTwo_rowTwo_Name = "Vietnamise Pho";
-      this.sectionTwo_rowTwo_Calories = "90";
-      this.sectionTwo_rowTwo_Description = "What the Pho-k is this?";
-      this.sectionTwo_rowTwo_Attributes = "Whole Grain";
-      this.sectionTwo_rowThree_Name = "French Onion Soup";
-      this.sectionTwo_rowThree_Calories = "130";
-      this.sectionTwo_rowThree_Description = "Onions, but with a french accent";
-      this.sectionTwo_rowThree_Attributes = "Vegan";
+      this.sectionTwo_rowOne_Name = "Grilled Bratwurst";
+      this.sectionTwo_rowOne_Calories = "320";
+      this.sectionTwo_rowOne_Description = "Savory grilled bratwurst";
+      this.sectionTwo_rowOne_Attributes = "N/A";
+      this.sectionTwo_rowTwo_Name = "Baked Russet Potato";
+      this.sectionTwo_rowTwo_Calories = "140";
+      this.sectionTwo_rowTwo_Description = "Oven-roasted russet potato";
+      this.sectionTwo_rowTwo_Attributes = "Vegan";
+      this.sectionTwo_rowThree_Name = "Applesauce Cake";
+      this.sectionTwo_rowThree_Calories = "340";
+      this.sectionTwo_rowThree_Description = "Homemade applesauce cake with raisins spiced with cinnamon and nutmeg frosted with vanilla icing";
+      this.sectionTwo_rowThree_Attributes = "Vegetarian";
 
       //SECTION THREE
-      this.sectionThree_rowOne_Name = "Pancakes";
-      this.sectionThree_rowOne_Calories = "120";
-      this.sectionThree_rowOne_Description = "Bacon pancakes makin bacon pancakes";
-      this.sectionThree_rowOne_Attributes = "Whole Grain";
-      this.sectionThree_rowTwo_Name = "Belgium Waffles";
-      this.sectionThree_rowTwo_Calories = "160";
-      this.sectionThree_rowTwo_Description = "Like normal waffles but smaller and more expensive";
-      this.sectionThree_rowTwo_Attributes = "Whole Grain";
-      this.sectionThree_rowThree_Name = "French Toast";
-      this.sectionThree_rowThree_Calories = "210";
-      this.sectionThree_rowThree_Description = "Bread, Milk, Eggs. If you think about it, it's kinda healthy.";
-      this.sectionThree_rowThree_Attributes = "Low Carb";
+      this.sectionThree_rowOne_Name = "Beef Vegetable Noodle Soup";
+      this.sectionThree_rowOne_Calories = "100";
+      this.sectionThree_rowOne_Description = "Roasted beef, egg noodles, potatoes and vegetables simmered in a rich beef stock";
+      this.sectionThree_rowOne_Attributes = "N/A";
+      this.sectionThree_rowTwo_Name = "Sweet Tomato Soup";
+      this.sectionThree_rowTwo_Calories = "70";
+      this.sectionThree_rowTwo_Description = "A puree of tomatoes, sweet potatoes, onions and vegetable broth";
+      this.sectionThree_rowTwo_Attributes = "Vegan";
+      this.sectionThree_rowThree_Name = "Roasted Corn Chowder";
+      this.sectionThree_rowThree_Calories = "150";
+      this.sectionThree_rowThree_Description = "Roasted corn, diced potatoes and onions in a creamy rich soup spiced with herbs and hot pepper sauce";
+      this.sectionThree_rowThree_Attributes = "N/A";
     }
     else if (id == 2) {
       this.sectionOneName = "Awc Station";
@@ -119,46 +119,46 @@ export class DiningHallsComponent implements OnInit {
       
             //Insert Data
       //SECTION ONE
-      this.sectionOne_rowOne_Name = "Pasta Marinara";
-      this.sectionOne_rowOne_Calories = "340";
-      this.sectionOne_rowOne_Description = "Timeless classic that appeals to anyone";
-      this.sectionOne_rowOne_Attributes = "Low Carb";
-      this.sectionOne_rowTwo_Name = "Lasagna";
-      this.sectionOne_rowTwo_Calories = "460";
-      this.sectionOne_rowTwo_Description = "Lasagna is just a pasta sandwich, change my mind";
-      this.sectionOne_rowTwo_Attributes = "Low card";
-      this.sectionOne_rowThree_Name = "Baked Ziti";
-      this.sectionOne_rowThree_Calories = "270";
-      this.sectionOne_rowThree_Description = "Ziti that just finished smoking a Joint";
-      this.sectionOne_rowThree_Attributes = "HIGH Carb";
+      this.sectionOne_rowOne_Name = "Belgian Waffle";
+      this.sectionOne_rowOne_Calories = "260";
+      this.sectionOne_rowOne_Description = "Crispy, golden-brown waffle";
+      this.sectionOne_rowOne_Attributes = "Vegetarian";
+      this.sectionOne_rowTwo_Name = "-";
+      this.sectionOne_rowTwo_Calories = "-";
+      this.sectionOne_rowTwo_Description = "-";
+      this.sectionOne_rowTwo_Attributes = "-";
+      this.sectionOne_rowThree_Name = "-";
+      this.sectionOne_rowThree_Calories = "-";
+      this.sectionOne_rowThree_Description = "-";
+      this.sectionOne_rowThree_Attributes = "-";
 
       //SECTION TWO
-      this.sectionTwo_rowOne_Name = "Burgers";
-      this.sectionTwo_rowOne_Calories = "180";
-      this.sectionTwo_rowOne_Description = "Ron Swanson approved";
-      this.sectionTwo_rowOne_Attributes = "Vegan";
-      this.sectionTwo_rowTwo_Name = "Sirloin Steak";
-      this.sectionTwo_rowTwo_Calories = "210";
-      this.sectionTwo_rowTwo_Description = "The only steak officially knighted by the queen of England";
-      this.sectionTwo_rowTwo_Attributes = "High Protein";
-      this.sectionTwo_rowThree_Name = "Pork Roast";
-      this.sectionTwo_rowThree_Calories = "140";
-      this.sectionTwo_rowThree_Description = "You know, as a kid I hated this. Still do.";
-      this.sectionTwo_rowThree_Attributes = "Whole Grain";
+      this.sectionTwo_rowOne_Name = "Caramel Apple Cheesecake Flatbread";
+      this.sectionTwo_rowOne_Calories = "530";
+      this.sectionTwo_rowOne_Description = "Cheesecake filling, cinnamon-sugar, mozzarella, caramel apple sauce and walnuts on flatbread crust";
+      this.sectionTwo_rowOne_Attributes = "Vegetarian";
+      this.sectionTwo_rowTwo_Name = "Classic Cheese Pizza";
+      this.sectionTwo_rowTwo_Calories = "270";
+      this.sectionTwo_rowTwo_Description = "Mozzarella cheese and pizza sauce";
+      this.sectionTwo_rowTwo_Attributes = "Vegetarian";
+      this.sectionTwo_rowThree_Name = "Caesar Salad";
+      this.sectionTwo_rowThree_Calories = "90";
+      this.sectionTwo_rowThree_Description = "Crisp Romaine lettuce tossed with seasoned croutons, Parmesan and creamy Caesar dressing";
+      this.sectionTwo_rowThree_Attributes = "PF";
 
       //SECTION THREE
-      this.sectionThree_rowOne_Name = "Cereal";
-      this.sectionThree_rowOne_Calories = "70";
-      this.sectionThree_rowOne_Description = "Sugar, but with great marketing";
-      this.sectionThree_rowOne_Attributes = "Whole Grain";
-      this.sectionThree_rowTwo_Name = "Eggs Benedict";
-      this.sectionThree_rowTwo_Calories = "100";
-      this.sectionThree_rowTwo_Description = "Napolean Himself came up with this";
-      this.sectionThree_rowTwo_Attributes = "High Protein";
-      this.sectionThree_rowThree_Name = "Toast";
-      this.sectionThree_rowThree_Calories = "60";
-      this.sectionThree_rowThree_Description = "Bread but baked a second time";
-      this.sectionThree_rowThree_Attributes = "Low Carb";
+      this.sectionThree_rowOne_Name = "Salmon BLT";
+      this.sectionThree_rowOne_Calories = "210";
+      this.sectionThree_rowOne_Description = "Grilled Montreal-seasoned salmon, bacon, lettuce, tomato and pesto mayo on top of a grilled baguette";
+      this.sectionThree_rowOne_Attributes = "N/A";
+      this.sectionThree_rowTwo_Name = "Crispy French Fries";
+      this.sectionThree_rowTwo_Calories = "150";
+      this.sectionThree_rowTwo_Description = "Piping hot crispy French Fries";
+      this.sectionThree_rowTwo_Attributes = "N/A";
+      this.sectionThree_rowThree_Name = "Chocolate Chip Coconut Bar";
+      this.sectionThree_rowThree_Calories = "190";
+      this.sectionThree_rowThree_Description = "Crunchy dessert bar with semisweet chocolate chips, coconut and walnuts";
+      this.sectionThree_rowThree_Attributes = "Vegetarian";
     }
     else if (id == 3) {
       this.sectionOneName = "Deli";
@@ -167,46 +167,46 @@ export class DiningHallsComponent implements OnInit {
       
       //Insert Data
       //SECTION ONE
-      this.sectionOne_rowOne_Name = "Ham and Cheese";
-      this.sectionOne_rowOne_Calories = "250";
-      this.sectionOne_rowOne_Description = "Ham and Cheese, it's literally in the name. Why do you need a description?";
-      this.sectionOne_rowOne_Attributes = "Low Carb";
-      this.sectionOne_rowTwo_Name = "Bottled Water";
-      this.sectionOne_rowTwo_Calories = "10";
-      this.sectionOne_rowTwo_Description = "Capitalism in its purest form";
-      this.sectionOne_rowTwo_Attributes = "Technically Low Carb";
-      this.sectionOne_rowThree_Name = "Croissant";
-      this.sectionOne_rowThree_Calories = "70";
-      this.sectionOne_rowThree_Description = "Um excuse me, are you going to finsih that CROISSANT";
-      this.sectionOne_rowThree_Attributes = "High Fat";
+      this.sectionOne_rowOne_Name = "Turkey Sub";
+      this.sectionOne_rowOne_Calories = "150";
+      this.sectionOne_rowOne_Description = "Turkey breast on hoagie roll with lettuce, tomato, red onion, relish, vinaigrette";
+      this.sectionOne_rowOne_Attributes = "Eat Well";
+      this.sectionOne_rowTwo_Name = "Spicy Falafel Wrap";
+      this.sectionOne_rowTwo_Calories = "520";
+      this.sectionOne_rowTwo_Description = "Jalapeno hummus, falafel, pickled red onions and feta cheese with lettuce, tomato and cucumber on a whole grain tortilla";
+      this.sectionOne_rowTwo_Attributes = "Vegetarian, PF";
+      this.sectionOne_rowThree_Name = "Sugar Cookie";
+      this.sectionOne_rowThree_Calories = "120";
+      this.sectionOne_rowThree_Description = "Freshly baked soft sugar cookie";
+      this.sectionOne_rowThree_Attributes = "Vegetarian";
 
       //SECTION TWO
-      this.sectionTwo_rowOne_Name = "Burritos";
-      this.sectionTwo_rowOne_Calories = "180";
-      this.sectionTwo_rowOne_Description = "Like taco bell, but better";
-      this.sectionTwo_rowOne_Attributes = "Vegan";
-      this.sectionTwo_rowTwo_Name = "Tacos";
-      this.sectionTwo_rowTwo_Calories = "180";
-      this.sectionTwo_rowTwo_Description = "The absolute worsst item at chipotle. Don't @ me";
-      this.sectionTwo_rowTwo_Attributes = "Not worth";
-      this.sectionTwo_rowThree_Name = "Carne Asada";
-      this.sectionTwo_rowThree_Calories = "140";
-      this.sectionTwo_rowThree_Description = "Either the best thing on the menu, or terribly dry";
-      this.sectionTwo_rowThree_Attributes = "Hit or miss";
+      this.sectionTwo_rowOne_Name = "Roasted Turkey Breast";
+      this.sectionTwo_rowOne_Calories = "120";
+      this.sectionTwo_rowOne_Description = "Oven-roasted turkey breast";
+      this.sectionTwo_rowOne_Attributes = "Eat Well";
+      this.sectionTwo_rowTwo_Name = "Creamy Mashed Potatoes";
+      this.sectionTwo_rowTwo_Calories = "120";
+      this.sectionTwo_rowTwo_Description = "Fresh mashed russet potatoes with fresh green onions";
+      this.sectionTwo_rowTwo_Attributes = "Vegetarian";
+      this.sectionTwo_rowThree_Name = "White Dinner Roll";
+      this.sectionTwo_rowThree_Calories = "110";
+      this.sectionTwo_rowThree_Description = "Soft white dinner roll";
+      this.sectionTwo_rowThree_Attributes = "N/A";
 
       //SECTION THREE
-      this.sectionThree_rowOne_Name = "Hot Dogs";
-      this.sectionThree_rowOne_Calories = "80";
-      this.sectionThree_rowOne_Description = "A glizzy!!?";
-      this.sectionThree_rowOne_Attributes = "Whole Grain";
-      this.sectionThree_rowTwo_Name = "Nachos";
-      this.sectionThree_rowTwo_Calories = "150";
-      this.sectionThree_rowTwo_Description = "ayyo those are Nacho Nachos!";
-      this.sectionThree_rowTwo_Attributes = "High Carb";
-      this.sectionThree_rowThree_Name = "Beer";
-      this.sectionThree_rowThree_Calories = "140";
-      this.sectionThree_rowThree_Description = "The official drink of dads";
-      this.sectionThree_rowThree_Attributes = "Low Carb";
+      this.sectionThree_rowOne_Name = "Grilled Vegetable Quesadilla";
+      this.sectionThree_rowOne_Calories = "360";
+      this.sectionThree_rowOne_Description = "Crispy tortilla filled with season zucchini, red onions, peppers, roasted carrots and vegan mozzarella and cheddar cheeses";
+      this.sectionThree_rowOne_Attributes = "Eat Well, Vegan, PF";
+      this.sectionThree_rowTwo_Name = "Steamed Green Peas";
+      this.sectionThree_rowTwo_Calories = "70";
+      this.sectionThree_rowTwo_Description = "Tender steamed green peas seasoned with garlic and herbs";
+      this.sectionThree_rowTwo_Attributes = "Eat Well, Vegan, PF";
+      this.sectionThree_rowThree_Name = "Vegan Oatmel Cookie";
+      this.sectionThree_rowThree_Calories = "180";
+      this.sectionThree_rowThree_Description = "Freshly baked cinnamon-spiced vegan oatmel-raisin cookie";
+      this.sectionThree_rowThree_Attributes = "Vegan";
     }
     else {
       this.fillerStatement = "SELECT A FOOD COURT"
