@@ -1,4 +1,4 @@
-/*
+
 
 .center{
     text-align: center;
@@ -7,7 +7,7 @@
 
 
 .button{
-    background-color: #4CAF50; /* Red #E00122
+    background-color: #E00122; 
     border: none;
     color: white;
     padding: 4px 25px;
@@ -18,7 +18,7 @@
     border-radius: 25px 25px 25px 25px;
     margin: 25px;
 }
-*/
+
 
 
 @media only screen and (max-width: 600px) {
@@ -40,7 +40,7 @@
     }
 
     .button{
-        background-color: #d33f3f;
+        background-color: #E00122;
         text-align: center;
         text-decoration: none;
         border: none;
