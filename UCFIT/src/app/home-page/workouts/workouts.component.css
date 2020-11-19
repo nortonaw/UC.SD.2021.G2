@@ -1,5 +1,5 @@
 .button{
-    background-color: #4CAF50; /* Red #E00122*/
+    background-color: #d33f3f; /* Red #E00122*/
     border: none;
     color: white;
     padding: 4px 25px;
@@ -14,4 +14,16 @@
 .center{
     text-align: center;
 
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1{
+        font-size: medium;
+        font-weight: 900;
+    }
+    h4{
+        font-size: small;
+        font-weight: 800;
+    }
 }
