@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class LoginPageComponent implements OnInit {
 
   loginValid: boolean;
+  errorMessage: boolean;
+  errorMessageText = "";
   username;
   password;
 
@@ -26,11 +28,22 @@ export class LoginPageComponent implements OnInit {
   }
 
   checkLogin(un, pw) {
-    if (un === "" || pw === "") {
+    this.errorMessage = false;
+    var ary_usernames = ["blake","andrew","samuel"];
+    var ary_passwords = ["blake123","andrew123","samuel123"];
+
+    if (ary_usernames.includes(un) && ary_passwords.includes(pw)) {
+      this.loginValid = true
+    }
+    else if (un === "" || pw === "") {
       this.loginValid = false;
+      this.errorMessage = true;
+      this.errorMessageText = "Please Input All Required Fields"
     }
     else {
-      this.loginValid = true;
+      this.loginValid = false;
+      this.errorMessage = true;
+      this.errorMessageText = "The Username or Password Did Not Match Our Records"
     }
   }
 
