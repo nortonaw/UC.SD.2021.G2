@@ -5,9 +5,7 @@
 
 
 .button{
-
     background-color: #E00122; 
-    background-color: #d33f3f; /* Red #E00122*/
     border: none;
     color: white;
     padding: 4px 25px;
@@ -41,7 +39,7 @@
     }
 
     .button{
-        background-color: #E00122;
+        background-color: #d33f3f;
         text-align: center;
         display: inline-block;
         font-size: 16px;
