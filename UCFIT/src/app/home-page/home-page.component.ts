@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginPageServiceService } from '../login-page/login-page-service.service';
 
 @Component({
   selector: 'app-home-page',
@@ -9,7 +10,7 @@ export class HomePageComponent implements OnInit {
 
   loggedIn: boolean;
 
-  constructor() { }
+  constructor(private loginService: LoginPageServiceService) { }
 
   ngOnInit(): void {
     this.loggedIn = true;
@@ -17,6 +18,10 @@ export class HomePageComponent implements OnInit {
     var dt = new Date();
     document.getElementById("datetime").innerHTML = dt.toDateString();
     document.getElementById("daytime").innerHTML = dt.toLocaleTimeString();
+  }
+
+  logout() {
+    this.loginService.logout();
   }
 
   toggleLogin() {

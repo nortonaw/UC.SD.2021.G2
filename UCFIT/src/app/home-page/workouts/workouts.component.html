@@ -1,5 +1,5 @@
 <div class="center">
-<h4>What would you like to do?</h4>
+<h4>Hello {{WorkoutUserName}}! Keep up the good work!</h4>
 
 <br>
 
@@ -91,6 +91,19 @@
             </tbody>
         </table>
     </div>
+
+    <div style="display: block">
+        <canvas mdbChart
+            [chartType]="chartType"
+            [datasets]="chartDatasets"
+            [labels]="chartLabels"
+            [colors]="chartColors"
+            [options]="chartOptions"
+            [legend]="true"
+            (chartHover)="chartHovered($event)"
+            (chartClick)="chartClicked($event)">
+        </canvas>
+      </div>
 </div>
 
 <hr>

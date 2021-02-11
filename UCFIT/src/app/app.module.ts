@@ -8,6 +8,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { DiningHallsComponent } from './home-page/dining-halls/dining-halls.component';
 import { WorkoutsComponent } from './home-page/workouts/workouts.component';
 import { QrCodesComponent } from './home-page/qr-codes/qr-codes.component';
+import { LoginPageServiceService } from './login-page/login-page-service.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { QrCodesComponent } from './home-page/qr-codes/qr-codes.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [LoginPageServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

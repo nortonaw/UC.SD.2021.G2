@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginPageServiceService } from './login-page-service.service';
 
 @Component({
   selector: 'app-login-page',
@@ -13,7 +14,7 @@ export class LoginPageComponent implements OnInit {
   username;
   password;
 
-  constructor() { }
+  constructor(private loginService: LoginPageServiceService) { }
 
   ngOnInit(): void {
     this.loginValid = false;
@@ -34,6 +35,11 @@ export class LoginPageComponent implements OnInit {
 
     if (ary_usernames.includes(un) && ary_passwords.includes(pw)) {
       this.loginValid = true
+      console.log("Login username = " + un);
+      this.loginService.setUsername(un);
+
+      var TESTID = this.loginService.getUserId();
+      console.log("Test ID = " + TESTID);
     }
     else if (un === "" || pw === "") {
       this.loginValid = false;
