@@ -17,6 +17,42 @@
     margin: 15px 0px 15px 0px;
 }
 
+img{
+  height: 300px;
+  width: 300px;
+
+}
+
+#container {
+  text-align: center;
+  margin: 0;
+}
+
+#qr-canvas {
+  margin: auto;
+  width: calc(100% - 20px);
+  max-width: 400px;
+}
+
+#btn-scan-qr {
+  cursor: pointer;
+}
+
+#btn-scan-qr img {
+  height: 10em;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+#qr-result {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: white;
+}
+
 
 @media only screen and (max-width: 600px) {
 
@@ -47,8 +83,9 @@
     .center{
         text-align: center;
         padding: 0px 20px;
+        overflow: hidden;
     }
-
+    
     
 #container {
     text-align: center;
