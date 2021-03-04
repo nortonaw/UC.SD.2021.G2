@@ -5,7 +5,7 @@
 
 <h4 class="center">CLICK TO OPEN CAMERA</h4>
 <div class="center">
-<button class="button"><input type="file" accept="image/*" capture="environment"></button>
+<button class="button"><input type="file" capture="capture" accept="image/*"></button>
 
 
 <br>
@@ -17,6 +17,14 @@
     <h1>QR Code Scanner</h1>
 
     <a id="btn-scan-qr">
+      <div>
+        <label for="profileImage"> 
+          <a style="cursor: pointer;"><em class="fa fa-upload"></em> 
+            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
+          </a>
+        </label> 
+          <input type="file" accept="image/*" capture="environment" name="profileImage" id="profileImage" style="display: none;">
+      </div>
       <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
     </a>
 
