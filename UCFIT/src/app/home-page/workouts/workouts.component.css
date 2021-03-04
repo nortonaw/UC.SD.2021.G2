@@ -6,6 +6,7 @@
 .card {
     display: inline;
     background: none;
+    border: none;
 }
  
 
@@ -101,5 +102,6 @@
     .card {
         display: inline;
         background: none;
+        border: none;
     }
 }
