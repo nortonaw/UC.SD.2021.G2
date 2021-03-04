@@ -12,8 +12,59 @@ img{
   max-width: 400px;
 }
 
+
 #btn-scan-qr {
   cursor: pointer;
+}
+
+.button{
+  background: linear-gradient(to right top, #cd356b, #bd3f32);
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 4px 25px;
+  color: white;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 25px;
+  width: 15%;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+
+}
+
+#container {
+  text-align: center;
+  margin: 0;
+}
+
+#qr-canvas {
+  margin: auto;
+  width: calc(100% - 20px);
+  max-width: 400px;
+}
+
+#btn-scan-qr {
+  cursor: pointer;
+}
+
+#btn-scan-qr img {
+  height: 10em;
+  padding: 15px;
+  margin: 15px;
+  background: white;
+}
+
+#qr-result {
+  font-size: 1.2em;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
+  background-color: white;
 }
 
 #btn-scan-qr img {
@@ -58,7 +109,7 @@ img{
         padding: 0px 20px;
         overflow: hidden;
     }
-
+    
     
     
 #container {
