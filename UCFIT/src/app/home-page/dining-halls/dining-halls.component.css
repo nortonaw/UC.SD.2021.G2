@@ -7,16 +7,19 @@
 
 
 .button{
-    background-color: #E00122; 
-    border: none;
-    color: white;
-    padding: 4px 25px;
+    background: linear-gradient(to right top, #cd356b, #bd3f32);
     text-align: center;
     text-decoration: none;
+    border: 1px solid;
+    padding: 4px 25px;
+    color: white;
     display: inline-block;
     font-size: 16px;
-    border-radius: 25px 25px 25px 25px;
-    margin: 25px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 50%;
+    
+    
 }
 
 
@@ -34,7 +37,7 @@
         font-size: 16px;
         margin: 10px;
         border-radius: 25px;
-        width: 15%;
+        width: 15%; 
     }
     
     .center{
@@ -175,17 +178,19 @@
     }
 
     .button{
-        background-color: #E00122;
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
         text-align: center;
         text-decoration: none;
-        border: none;
+        border: 1px solid;
         padding: 4px 25px;
         color: white;
         display: inline-block;
         font-size: 16px;
         margin: 10px;
         border-radius: 25px;
+        width: 15%; 
     }
+    
 
     table, thead, tbody, th, td, tr{
         display: block;
@@ -334,17 +339,19 @@
     }
 
     .button{
-        background-color: #d33f3f;
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
         text-align: center;
         text-decoration: none;
-        border: none;
+        border: 1px solid;
         padding: 4px 25px;
         color: white;
         display: inline-block;
         font-size: 16px;
         margin: 10px;
         border-radius: 25px;
+        width: 15%; 
     }
+    
 
     table, thead, tbody, th, td, tr{
         display: block;

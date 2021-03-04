@@ -12,6 +12,19 @@
   width: 15%;
 }
 
+.buttonrow{
+    background: linear-gradient(to right top, #cd356b, #bd3f32);
+    border: 1px solid;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
 .center{
     text-align: center;
 
