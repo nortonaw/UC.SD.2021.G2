@@ -30,6 +30,20 @@
 
 }
 
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.card {
+    display: inline-block;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+
 @media only screen and (max-width: 600px) {
 
     h1{
@@ -53,6 +67,19 @@
         font-size: 16px;
         border-radius: 0px;
         margin: 20px 0px 20px 0px;
+    }
+    .button{
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid;
+      padding: 4px 25px;
+      color: white;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      border-radius: 25px;
+      width: 30%;
     }
 
     
