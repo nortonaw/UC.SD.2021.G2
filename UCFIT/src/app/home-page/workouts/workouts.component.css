@@ -1,3 +1,14 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.card {
+    display: inline;
+    background: none;
+}
+ 
+
 .button{
     background: linear-gradient(to right top, #cd356b, #bd3f32);
   text-align: center;
@@ -57,15 +68,15 @@
 
 
     .buttonrow{
-        background-color: #E00122;
-        border: none;
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
+        border: 1px solid;
         color: white;
         padding: 10px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
-        border-radius: 0px;
+        border-radius: 25px;
         margin: 20px 0px 20px 0px;
     }
     .button{
