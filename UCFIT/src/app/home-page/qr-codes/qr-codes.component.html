@@ -1,19 +1,75 @@
 <head>
   <script src="/src/app/home-page/qr-codes/qr_packed.js"></script>
+  <script src="https://raw.githubusercontent.com/mebjas/html5-qrcode/master/minified/html5-qrcode.min.js">
+
+    const html5QrCode = new Html5Qrcode(/* element id */ "reader");
+
+    // File based scanning
+    const fileinput = document.getElementById('qr-input-file');
+    fileinput.addEventListener('change', e => {
+      if (e.target.files.length == 0) {
+        // No file selected, ignore 
+        return;
+      }
+
+      // Use the first item in the list
+      const imageFile = e.target.files[0];
+      html5QrCode.scanFile(imageFile, /* showImage= */true)
+        .then(qrCodeMessage => {
+          // success, use qrCodeMessage
+          console.log(qrCodeMessage);
+        })
+        .catch(err => {
+          // failure, handle it.
+          console.log(`Error scanning file. Reason: ${err}`)
+        });
+    });
+  </script>
 </head>
 
 
-<h4 class="center">CLICK TO OPEN CAMERA</h4>
+<!-- <h4 class="center">CLICK TO OPEN CAMERA</h4>
 <div class="center">
-<button class="button"><input type="file" accept="image/*" capture="environment"></button>
+  <button class="button"><input type="file" accept="image/*" capture="environment"></button>
 
 
-<br>
-<button class="button" routerLink="/home">GO HOME</button>
-</div>
+  <br>
+  <button class="button" routerLink="/home">GO HOME</button>
+</div> -->
 
 
 <div id="container">
+  <h1>QR Code Scanner</h1>
+
+  <div>
+    <label for="profileImage">
+      <a style="cursor: pointer;" id="btn-scan-qr"><em class="fa fa-upload"></em>
+        <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
+      </a>
+    </label>
+    <input type="file" accept="image/*;capture=camera" capture="camera" name="profileImage" id="profileImage"
+      style="display: none;">
+  </div>
+
+  <div>
+    <iframe width="425" height="344"
+      src="hhttps://www.youtube.com/embed/y881t8ilMyc"
+      frameborder="0" allowfullscreen></iframe>
+  </div>
+
+
+  <!-- <a id="btn-scan-qr">
+    <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
+    <input type="file" accept="image/*" capture="environment">
+  </a> -->
+
+  <canvas hidden="" id="qr-canvas"></canvas>
+
+  <div id="qr-result" hidden="">
+    <b>Data:</b> <span id="outputData"></span>
+  </div>
+
+  <!-- <div id="container">
     <h1>QR Code Scanner</h1>
 
     <a id="btn-scan-qr">
@@ -25,6 +81,15 @@
     <div id="qr-result" hidden="">
       <b>Data:</b> <span id="outputData"></span>
     </div>
-  </div>
+  </div> -->
 
-  <script src="/src/app/home-page/qr-codes/qrCodeScanner.js"></script>
+  <script src="./src/qrCodeScanner.js"></script>
+
+  <!-- <div id="reader">
+    <input type="file" id="qr-input-file" accept="image/*">
+
+    <input type="file" id="qr-input-file" accept="image/*" capture>
+  </div> -->
+</div>
+
+<script src="/src/app/home-page/qr-codes/qrCodeScanner.js"></script>

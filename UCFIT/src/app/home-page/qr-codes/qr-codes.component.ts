@@ -10,6 +10,8 @@ export class QrCodesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
-
+  
+  
 }
