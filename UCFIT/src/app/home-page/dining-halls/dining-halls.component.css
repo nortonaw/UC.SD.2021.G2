@@ -1,3 +1,10 @@
+#pageLabel {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
 
 
 .center{
@@ -7,7 +14,10 @@
 
 
 .button{
-    background: linear-gradient(to right top, #cd356b, #bd3f32);
+    background-color: #E00122; 
+    border: 1px solid;
+    color: white;
+    padding: 4px 25px;
     text-align: center;
     text-decoration: none;
     border: 1px solid;
@@ -17,9 +27,7 @@
     font-size: 16px;
     margin: 10px;
     border-radius: 25px;
-    width: 50%;
-    
-    
+    width: 50%;    
 }
 
 
