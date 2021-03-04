@@ -66,5 +66,13 @@
         margin: 20px 0px 20px 0px;
     }
 
-    
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .card {
+        display: inline;
+        background: none;
+    }
 }
