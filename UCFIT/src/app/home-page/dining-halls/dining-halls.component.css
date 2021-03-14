@@ -9,7 +9,18 @@
 
 .center{
     text-align: center;
-    padding: 0px 50px;
+    padding: 0px 5px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.card {
+    display: inline;
+    background: none;
+    border: none;
 }
 
 
@@ -29,6 +40,33 @@
     border-radius: 25px;
     width: 50%;    
 }
+.buttonrow{
+    background: linear-gradient(to right top, #cd356b, #bd3f32);
+    border: 1px solid;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    margin: 20px 0px 20px 0px;
+}
+
+.goHomeButton{
+        
+    background: linear-gradient(to right top, #cd356b, #bd3f32);
+      text-align: center;
+      text-decoration: none;
+      border: 1px solid;
+      padding: 4px 5px;
+      color: white;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px;
+      border-radius: 25px;
+      width: 30%;
+    }
 
 
 @media only screen and (min-width: 601px) {
@@ -47,10 +85,36 @@
         border-radius: 25px;
         width: 15%; 
     }
+
+    .goHomeButton{
+        
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
+          text-align: center;
+          text-decoration: none;
+          border: 1px solid;
+          padding: 4px 5px;
+          color: white;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px;
+          border-radius: 25px;
+          width: 30%;
+        }
     
     .center{
         text-align: center;
     
+    }
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .card {
+        display: inline;
+        background: none;
+        border: none;
     }
 
 }
@@ -170,7 +234,7 @@
 
     .center{
         text-align: center;
-        padding: 0px 50px;
+        padding: 0px 5px;
     }
 
 
@@ -197,6 +261,32 @@
         margin: 10px;
         border-radius: 25px;
         width: 15%; 
+    }
+
+    .goHomeButton{
+        
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
+          text-align: center;
+          text-decoration: none;
+          border: 1px solid;
+          padding: 4px 5px;
+          color: white;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px;
+          border-radius: 25px;
+          width: 30%;
+        }
+
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .card {
+        display: inline;
+        background: none;
+        border: none;
     }
     
 
@@ -331,7 +421,7 @@
 
     .center{
         text-align: center;
-        padding: 0px 50px;
+        padding: 0px 5px;
     }
 
 
@@ -359,7 +449,32 @@
         border-radius: 25px;
         width: 15%; 
     }
+
+    .goHomeButton{
+        
+        background: linear-gradient(to right top, #cd356b, #bd3f32);
+          text-align: center;
+          text-decoration: none;
+          border: 1px solid;
+          padding: 4px 5px;
+          color: white;
+          display: inline-block;
+          font-size: 16px;
+          margin: 10px;
+          border-radius: 25px;
+          width: 30%;
+        }
     
+    .scrolling-wrapper {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .card {
+        display: inline;
+        background: none;
+        border: none;
+    }
 
     table, thead, tbody, th, td, tr{
         display: block;

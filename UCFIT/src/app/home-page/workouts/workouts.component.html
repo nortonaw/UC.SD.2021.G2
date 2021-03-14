@@ -13,7 +13,7 @@
 </div>
 
 <div *ngIf="contentDisplayId == 1">
-    <form>
+    <form class="whole-form">
         <div class="form-group">
             <label for="exampleFormControlSelect1">Select Workout</label>
             <select class="form-control col-3" id="inputWorkout">
@@ -50,13 +50,13 @@
         <button  class="buttonrow" (click)="tableRefresh(3)">DEADLIFT</button>
     </div>-->
     <div class="scrolling-wrapper">
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">BENCH PRESS</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">SQUAT</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">DEADLIFT</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">Bench Press</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">Squat</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">Deadlift</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(4)">Bicep Curl</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(5)">Leg Press</button></div>
 
-        </div>
+    </div>
     <hr>
 
     <div *ngIf="diningHallId > 0">
@@ -114,5 +114,5 @@
 </div>
 
 <hr>
-<button class="button" routerLink="/home">GO HOME</button>
+<button class="goHomeButton" routerLink="/home">GO HOME</button>
 </div>

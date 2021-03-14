@@ -11,13 +11,19 @@
     <p id="pageLabel">{{pageLabel}}</p>
 
     <hr>
-
+    <!--
     <div class="center" role="group" aria-label="...">
         <button type="button" class="button" (click)="tableRefresh(1)">CENTER COURT</button>
 
         <button type="button" class="button" (click)="tableRefresh(2)">MARKET POINTE</button>
 
         <button type="button" class="button" (click)="tableRefresh(3)">ON THE GREEN</button>
+    </div>-->
+
+    <div class="scrolling-wrapper">
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">Center Court</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">Market Pointe</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">On The Green</button></div>
     </div>
     <hr>
 
@@ -36,7 +42,7 @@
 
             <div style="position:relative;">
                 <div class="description">
-                    <p><b>cal</b> 180 | a crisp juicy glizzy | vegitarian</p>
+                    <p><b>cal</b> 180 | a crisp juicy glizzy | vegetarian</p>
                 </div>
             </div>
 
@@ -62,7 +68,7 @@
 
             <div style="position:relative;">
                 <div class="description">
-                    <p><b>cal</b> 300 | thin cripsy flaky buttery | vegitarian</p>
+                    <p><b>cal</b> 300 | thin cripsy flaky buttery | vegetarian</p>
                 </div>
             </div>
         </div>
@@ -269,5 +275,5 @@
 
 <hr>
 <div class="center">
-    <button class="button" routerLink="/home">GO HOME</button>
+    <button class="goHomeButton" routerLink="/home">GO HOME</button>
 </div>
