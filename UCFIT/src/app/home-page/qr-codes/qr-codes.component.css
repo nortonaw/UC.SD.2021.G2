@@ -101,6 +101,11 @@ img{
   display: hidden;
 }
 
+.center{
+  text-align: center;
+  padding: 0px 5px;
+}
+
 
 @media only screen and (max-width: 600px) {
 

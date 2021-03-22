@@ -40,40 +40,36 @@
 <div id="container">
   <h1>Guided Workouts</h1>
 
-    <div class="scrolling-wrapper">
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">Bench Press</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">Squat</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">Deadlift</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(4)">Bicep Curl</button></div>
-        <div class="card"><button  class="buttonrow" (click)="tableRefresh(5)">Leg Press</button></div>
-    </div>
+  <div class="scrolling-wrapper">
+    <div class="card"><button class="buttonrow" (click)="tableRefresh(1)">Bench Press</button></div>
+    <div class="card"><button class="buttonrow" (click)="tableRefresh(2)">Squat</button></div>
+    <div class="card"><button class="buttonrow" (click)="tableRefresh(3)">Deadlift</button></div>
+    <div class="card"><button class="buttonrow" (click)="tableRefresh(4)">Bicep Curl</button></div>
+    <div class="card"><button class="buttonrow" (click)="tableRefresh(5)">Leg Press</button></div>
+  </div>
 
   <script src="./src/qrCodeScanner.js"></script>
 </div>
 
 <hr>
 
-<div *ngIf="gifID == 1">
-  <p>div id = 1</p>
-  <p>insert gif</p>
+<div class="center">
+  <div *ngIf="gifID == 1">
+    <img src="cc_bratwurst.jpg" alt="Bench Press" width="500" height="600">
+  </div>
+  <div *ngIf="gifID == 2">
+    <img src="cc_hamburger.jpg" alt="Squat" width="500" height="600">
+  </div>
+  <div *ngIf="gifID == 3">
+    <img src="mp_belgianwaffle.jpg" alt="Deadlift" width="500" height="600">
+  </div>
+  <div *ngIf="gifID == 4">
+    <img src="mp_chocolatechipcookie.jpg" alt="Bicep Curl" width="500" height="600">
+  </div>
+  <div *ngIf="gifID == 5">
+    <img src="otg_quesadilla.jpg" alt="Leg Press" width="500" height="600">
+  </div>
 </div>
-<div *ngIf="gifID == 2">
-  <p>div id = 2</p>
-  <p>insert gif</p>
-</div>
-<div *ngIf="gifID == 3">
-  <p>div id = 3</p>
-  <p>insert gif</p>
-</div>
-<div *ngIf="gifID == 4">
-  <p>div id = 4</p>
-  <p>insert gif</p>
-</div>
-<div *ngIf="gifID == 5">
-  <p>div id = 5</p>
-  <p>insert gif</p>
-</div>
-
 
 
 <script src="/src/app/home-page/qr-codes/qrCodeScanner.js"></script>
