@@ -108,6 +108,10 @@ img{
 
 
 @media only screen and (max-width: 600px) {
+h1 {
+  font-size: medium;
+  font-weight: 900;
+}
 
     .center{
         text-align: center;
@@ -128,5 +132,17 @@ img{
     
 #container {
     text-align: center;
+}
+.buttonrow{
+  background: linear-gradient(to right top, #cd356b, #bd3f32);
+  border: 1px solid;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 25px;
+  margin: 20px 0px 20px 0px;
 }
 }
