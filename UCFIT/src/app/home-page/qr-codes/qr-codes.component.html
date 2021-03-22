@@ -41,7 +41,25 @@
 <div id="container">
   <h1>Guided Workouts</h1>
 
-  <div>
+
+    <div class="scrolling-wrapper">
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">Bench Press</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">Squat</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">Deadlift</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(4)">Bicep Curl</button></div>
+        <div class="card"><button  class="buttonrow" (click)="tableRefresh(5)">Leg Press</button></div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+ <!---  <div>
     <label for="profileImage">
       <a style="cursor: pointer;" id="btn-scan-qr"><em class="fa fa-upload"></em>
         <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
@@ -49,7 +67,7 @@
     </label>
     <input type="file" accept="image/*;capture=camera" capture="camera" name="profileImage" id="profileImage"
       style="display: none;">
-  </div>
+  </div> 
 
   <div>
     <iframe width="425" height="344"
@@ -58,10 +76,11 @@
   </div>
 
 
-  <!-- <a id="btn-scan-qr">
+  <a id="btn-scan-qr">
     <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
     <input type="file" accept="image/*" capture="environment">
-  </a> -->
+  </a> 
+ 
 
   <canvas hidden="" id="qr-canvas"></canvas>
 

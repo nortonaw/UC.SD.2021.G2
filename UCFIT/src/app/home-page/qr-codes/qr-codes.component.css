@@ -110,7 +110,16 @@ img{
         overflow: hidden;
     }
     
-    
+    .scrolling-wrapper {
+      overflow-x: scroll;
+      overflow-y: hidden;
+      white-space: nowrap;
+  }
+  .card {
+      display: inline;
+      background: none;
+      border: none;
+  }
     
 #container {
     text-align: center;
