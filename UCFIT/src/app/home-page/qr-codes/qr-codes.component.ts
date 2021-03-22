@@ -7,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QrCodesComponent implements OnInit {
 
+  gifID = 0;
+
   constructor() { }
 
   ngOnInit(): void {
     
+  }
+
+  tableRefresh(id) {
+    this.gifID = id;
   }
   
   

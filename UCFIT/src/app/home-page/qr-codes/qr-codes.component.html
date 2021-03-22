@@ -32,7 +32,6 @@
 <div class="center">
   <button class="button"><input type="file" accept="image/*" capture="environment"></button>
 
-
   <br>
   <button class="button" routerLink="/home">GO HOME</button>
 </div> -->
@@ -41,82 +40,40 @@
 <div id="container">
   <h1>Guided Workouts</h1>
 
-
     <div class="scrolling-wrapper">
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(1)">Bench Press</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(2)">Squat</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(3)">Deadlift</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(4)">Bicep Curl</button></div>
         <div class="card"><button  class="buttonrow" (click)="tableRefresh(5)">Leg Press</button></div>
-
     </div>
-
-
-
-
-
-
-
-
-
- <!---  <div>
-    <label for="profileImage">
-      <a style="cursor: pointer;" id="btn-scan-qr"><em class="fa fa-upload"></em>
-        <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
-      </a>
-    </label>
-    <input type="file" accept="image/*;capture=camera" capture="camera" name="profileImage" id="profileImage"
-      style="display: none;">
-  </div> 
-
-  <div>
-    <iframe width="425" height="344"
-      src="hhttps://www.youtube.com/embed/y881t8ilMyc"
-      frameborder="0" allowfullscreen></iframe>
-  </div>
-
-
-  <a id="btn-scan-qr">
-    <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
-    <input type="file" accept="image/*" capture="environment">
-  </a> 
- 
-
-  <canvas hidden="" id="qr-canvas"></canvas>
-
-  <div id="qr-result" hidden="">
-    <b>Data:</b> <span id="outputData"></span>
-  </div>
-
-  <!-- <div id="container">
-    <h1>QR Code Scanner</h1>
-
-    <a id="btn-scan-qr">
-      <div>
-        <label for="profileImage"> 
-          <a style="cursor: pointer;"><em class="fa fa-upload"></em> 
-            <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
-          </a>
-        </label> 
-          <input type="file" accept="image/*" capture="environment" name="profileImage" id="profileImage" style="display: none;">
-      </div>
-      <img src="https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg">
-    </a>
-
-    <canvas hidden="" id="qr-canvas"></canvas>
-
-    <div id="qr-result" hidden="">
-      <b>Data:</b> <span id="outputData"></span>
-    </div>
-  </div> -->
 
   <script src="./src/qrCodeScanner.js"></script>
-
-  <!-- <div id="reader">
-    <input type="file" id="qr-input-file" accept="image/*">
-
-    <input type="file" id="qr-input-file" accept="image/*" capture>
-  </div> -->
 </div>
+
+<hr>
+
+<div *ngIf="gifID == 1">
+  <p>div id = 1</p>
+  <p>insert gif</p>
+</div>
+<div *ngIf="gifID == 2">
+  <p>div id = 2</p>
+  <p>insert gif</p>
+</div>
+<div *ngIf="gifID == 3">
+  <p>div id = 3</p>
+  <p>insert gif</p>
+</div>
+<div *ngIf="gifID == 4">
+  <p>div id = 4</p>
+  <p>insert gif</p>
+</div>
+<div *ngIf="gifID == 5">
+  <p>div id = 5</p>
+  <p>insert gif</p>
+</div>
+
+
 
 <script src="/src/app/home-page/qr-codes/qrCodeScanner.js"></script>
